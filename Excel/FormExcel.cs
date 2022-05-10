@@ -282,7 +282,6 @@ namespace Excel
                         {
                             cmd.CommandText = Query;
                             cmd.ExecuteNonQuery();
-                            j++;
                         }
                         cmd.Parameters.Clear();
                         pgbProcesso.Value += 1;
